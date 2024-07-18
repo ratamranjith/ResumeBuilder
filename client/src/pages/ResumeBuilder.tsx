@@ -1,16 +1,16 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import axios from "axios";
-import Intro from "../components/Intro";
-import Summary from "../components/Summary";
-import WorkExperience from "../components/WorkExperience";
-import TechnicalExpertise from "../components/TechnicalExpertise";
-import Skills from "../components/Skills";
-import Tools from "../components/Tools";
-import Methodology from "../components/Methodology";
-import KeyProjects from "../components/KeyProjects";
-import Certifications from "../components/Certifications";
-import Website from "../components/Website";
-import Education from "../components/Education";
+// import Intro from "../components/Intro";
+// import Summary from "../components/Summary";
+// import WorkExperience from "../components/WorkExperience";
+// import TechnicalExpertise from "../components/TechnicalExpertise";
+// import Skills from "../components/Skills";
+// import Tools from "../components/Tools";
+// import Methodology from "../components/Methodology";
+// import KeyProjects from "../components/KeyProjects";
+// import Certifications from "../components/Certifications";
+// import Website from "../components/Website";
+// import Education from "../components/Education";
 
 const ResumeBuilder = () => {
   const [resume, setResume] = useState(null);
@@ -38,7 +38,7 @@ const ResumeBuilder = () => {
   return (
     <div>
       <h1>Resume Builder</h1>
-      <Intro />
+      {/* <Intro />
       <Summary />
       <WorkExperience />
       <TechnicalExpertise />
@@ -48,7 +48,7 @@ const ResumeBuilder = () => {
       <KeyProjects />
       <Certifications />
       <Website />
-      <Education />
+      <Education /> */}
     </div>
   );
 };
