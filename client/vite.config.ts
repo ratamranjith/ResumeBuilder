@@ -6,7 +6,7 @@ export default defineConfig({
   server: {
     proxy: {
       '/api': {
-        target: VITE_REACT_APP_BACKEND_BASEURL,
+        target: 'http://localhost:5000',
         changeOrigin: true,
         secure: false,
       },
